@@ -1,0 +1,449 @@
+fileFormatVersion: 2
+guid: 3c5c9b14851b4d44d895697c52fdea78
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5778926860832312810
+    second: gameTileset_0
+  - first:
+      213: -8801375530373365420
+    second: gameTileset_1
+  - first:
+      213: -8205402442630616138
+    second: gameTileset_2
+  - first:
+      213: 6863071067818224570
+    second: gameTileset_3
+  - first:
+      213: -4695784426346944151
+    second: gameTileset_4
+  - first:
+      213: -4351231866155328890
+    second: gameTileset_5
+  - first:
+      213: -1756263516095170243
+    second: gameTileset_6
+  - first:
+      213: -7102514959559303007
+    second: gameTileset_7
+  - first:
+      213: 1385607973525360976
+    second: gameTileset_8
+  - first:
+      213: -5085900052274576323
+    second: gameTileset_9
+  - first:
+      213: 4554942972113749629
+    second: gameTileset_10
+  - first:
+      213: 3950781754402021326
+    second: gameTileset_11
+  - first:
+      213: 9111618643095116989
+    second: gameTileset_12
+  - first:
+      213: 6830334528442610909
+    second: gameTileset_13
+  - first:
+      213: -2301235484796292472
+    second: gameTileset_14
+  - first:
+      213: -3558326698180453579
+    second: gameTileset_15
+  - first:
+      213: -4019518650387768434
+    second: gameTileset_16
+  - first:
+      213: 8780103798740914808
+    second: gameTileset_17
+  - first:
+      213: -181783303581862229
+    second: gameTileset_18
+  - first:
+      213: 8162934755040102554
+    second: gameTileset_19
+  - first:
+      213: 1666744178018829870
+    second: gameTileset_20
+  - first:
+      213: 1167875941691727886
+    second: gameTileset_21
+  - first:
+      213: 5991263838425999305
+    second: gameTileset_22
+  - first:
+      213: -1456428882459815455
+    second: gameTileset_23
+  - first:
+      213: 4570597589788325668
+    second: gameTileset_24
+  - first:
+      213: -4740673008386372386
+    second: gameTileset_25
+  - first:
+      213: -2252272098375143386
+    second: gameTileset_26
+  - first:
+      213: -2548477907912570026
+    second: gameTileset_27
+  - first:
+      213: -679768626841640642
+    second: gameTileset_28
+  - first:
+      213: -7521588242870615154
+    second: gameTileset_29
+  - first:
+      213: -4590624270867517912
+    second: gameTileset_30
+  - first:
+      213: 8174373539768296833
+    second: gameTileset_31
+  - first:
+      213: 4425021341855250549
+    second: gameTileset_32
+  - first:
+      213: 6530466101475617446
+    second: gameTileset_33
+  - first:
+      213: 1764027372493197677
+    second: gameTileset_34
+  - first:
+      213: -3657290234603369821
+    second: gameTileset_35
+  - first:
+      213: -4197928430578370704
+    second: gameTileset_36
+  - first:
+      213: -1991573463411262091
+    second: gameTileset_37
+  - first:
+      213: 1297749254777848316
+    second: gameTileset_38
+  - first:
+      213: -5122686622876580039
+    second: gameTileset_39
+  - first:
+      213: 8879039563643130672
+    second: gameTileset_40
+  - first:
+      213: -9011646265766881562
+    second: gameTileset_41
+  - first:
+      213: 1520653636785742779
+    second: gameTileset_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gameTileset_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 995
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed8fd2ac5fd23050800000000000000
+      internalID: 5778926860832312810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameTileset_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 955
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451c749369b3bd580800000000000000
+      internalID: -8801375530373365420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameTileset_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 986
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb21e7d3fd802e80800000000000000
+      internalID: -8205402442630616138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameTileset_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 995
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d393b2f13af70a7e0800000000000000
+      internalID: -1756263516095170243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameTileset_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 943
+        width: 49
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0e197664cce6d90800000000000000
+      internalID: -7102514959559303007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameTileset_43
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 995
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871742bf47a3d594590f2e68a6b0cb07
+      internalID: -1283964353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameTileset_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 995
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0161137810f594e4fa8b3f3079a9a3f5
+      internalID: 831347613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fba444ca0a455a44ab2b1a53dcd7a5a5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gameTileset_0: 5778926860832312810
+      gameTileset_1: -8801375530373365420
+      gameTileset_10: 4554942972113749629
+      gameTileset_11: 3950781754402021326
+      gameTileset_12: 9111618643095116989
+      gameTileset_13: 6830334528442610909
+      gameTileset_14: -2301235484796292472
+      gameTileset_15: -3558326698180453579
+      gameTileset_16: -4019518650387768434
+      gameTileset_17: 8780103798740914808
+      gameTileset_18: -181783303581862229
+      gameTileset_19: 8162934755040102554
+      gameTileset_2: -8205402442630616138
+      gameTileset_20: 1666744178018829870
+      gameTileset_21: 1167875941691727886
+      gameTileset_22: 5991263838425999305
+      gameTileset_23: -1456428882459815455
+      gameTileset_24: 4570597589788325668
+      gameTileset_25: -4740673008386372386
+      gameTileset_26: -2252272098375143386
+      gameTileset_27: -2548477907912570026
+      gameTileset_28: -679768626841640642
+      gameTileset_29: -7521588242870615154
+      gameTileset_3: 6863071067818224570
+      gameTileset_30: -4590624270867517912
+      gameTileset_31: 8174373539768296833
+      gameTileset_32: 4425021341855250549
+      gameTileset_33: 6530466101475617446
+      gameTileset_34: 1764027372493197677
+      gameTileset_35: -3657290234603369821
+      gameTileset_36: -4197928430578370704
+      gameTileset_37: -1991573463411262091
+      gameTileset_38: 1297749254777848316
+      gameTileset_39: -5122686622876580039
+      gameTileset_4: -4695784426346944151
+      gameTileset_40: 8879039563643130672
+      gameTileset_41: -9011646265766881562
+      gameTileset_42: 1520653636785742779
+      gameTileset_43: -1283964353
+      gameTileset_44: 831347613
+      gameTileset_45: 2021564144
+      gameTileset_46: -14424870
+      gameTileset_47: -479108208
+      gameTileset_48: 664403110
+      gameTileset_5: -4351231866155328890
+      gameTileset_6: -1756263516095170243
+      gameTileset_7: -7102514959559303007
+      gameTileset_8: 1385607973525360976
+      gameTileset_9: -5085900052274576323
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
