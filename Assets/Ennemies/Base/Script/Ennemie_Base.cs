@@ -20,7 +20,7 @@ public class Enemie_Base : MonoBehaviour
 
     protected virtual void Move()
     {
-
+        //Pass
     }
 
     public virtual void TakeDamage(float amount)
