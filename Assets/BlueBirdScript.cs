@@ -1,15 +1,8 @@
 using UnityEngine;
 
-public class SpecialProjectileScript : MonoBehaviour
+public class BlueBirdScript : MonoBehaviour
 {
-    private Animator anim;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Awake()
-    {
-        
-        anim=GetComponent<Animator>();
-    }
-    
     void Start()
     {
         
@@ -18,10 +11,6 @@ public class SpecialProjectileScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    }
-
-    void OnAnimationEnd()
-    {
-        anim.speed=0f;
+        
     }
 }
