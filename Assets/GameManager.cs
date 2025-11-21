@@ -3,23 +3,21 @@ using System;
 
 public class GameManager : MonoBehaviour
 {
-    // --- UI References (à assigner dans l'Inspector) ---
     public TextMesh scoreTextMesh;
-    // NOUVEAU : Référence pour l'affichage du multiplicateur
     public TextMesh multiplierTextMesh; 
     
-    // --- Score Variables ---
+    
     private long currentScore = 0;
-    // Score en attente d'être ajouté progressivement
+    
     private long scoreToAddQueue = 0; 
-    [Tooltip("Points ajoutés au score visible par seconde.")]
+    
     public int scoreTickRate = 50000;  
     
-    // --- Multiplier Variables ---
+    
     private float currentMultiplier = 1.0f;
-    [Tooltip("Augmentation du multiplicateur par seconde.")]
-    public float multiplierIncreaseRate = 0.000013f; 
-    public float maxMultiplier = 55.0f;
+
+    public float multiplierIncreaseRate = 0.05f; 
+    public float maxMultiplier = 15.0f;
 
     void Start()
     {
@@ -29,16 +27,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        // Gère l'ajout progressif du score
-        HandleScoreTick();
-        
-        // Gère l'augmentation progressive du multiplicateur au fil du temps
-        HandleMultiplierIncrease();
-    }
-    
-    // NOUVEAU : Gère l'augmentation progressive du score affiché
-    private void HandleScoreTick()
-    {
+        // Gère l'ajout progressif du score affiché
         if (scoreToAddQueue > 0)
         {
             // Calcule combien de points ajouter ce frame
@@ -52,22 +41,18 @@ public class GameManager : MonoBehaviour
 
             UpdateScoreDisplay();
         }
-    }
-
-    // NOUVEAU : Gère l'augmentation progressive du multiplicateur
-    private void HandleMultiplierIncrease()
-    {
-        // Augmente le multiplicateur tant qu'il n'a pas atteint la limite
+        
+        // Gère l'augmentation progressive du multiplicateur au fil du temps
         if (currentMultiplier < maxMultiplier)
         {
             currentMultiplier += multiplierIncreaseRate * Time.deltaTime;
             currentMultiplier = Mathf.Min(currentMultiplier, maxMultiplier);
             UpdateMultiplierDisplay();
         }
-        // Vous pouvez ajouter ici une logique pour FAIRE BAISSER le multiplicateur s'il n'y a pas d'action !
     }
+    
 
-    // Modifié : Ajoute le score (brut * multiplicateur) à la file d'attente
+    //Ajoute le score
     public void AddScore(int rawAmount)
     {
         // 1. Calculer le score total avec le multiplicateur
@@ -86,13 +71,20 @@ public class GameManager : MonoBehaviour
         }
     }
     
-    // NOUVEAU : Met à jour l'affichage du multiplicateur
+    //Met à jour l'affichage du multiplicateur
     private void UpdateMultiplierDisplay()
     {
         if (multiplierTextMesh != null)
         {
-            // Affichage avec deux décimales (ex: x 5.25)
             multiplierTextMesh.text = $"x {currentMultiplier:F2}";
         }
     }
+
+    // private void ResetMultiplayer()
+    // {
+    //     currentMultiplier = 1.0f;
+    //     UpdateMultiplierDispaly();
+
+    //     //gameManager.ResetMultiplier(); a appeler depuis le PlayerScript quand le joueur se fait toucher
+    // }
 }
