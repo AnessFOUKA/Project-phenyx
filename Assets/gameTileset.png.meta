@@ -396,10 +396,10 @@ TextureImporter:
       name: gameTileset_3
       rect:
         serializedVersion: 2
-        x: 6
-        y: 980
-        width: 1
-        height: 3
+        x: 104
+        y: 770
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,7 +408,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d91774b0d69df28419a297f57579b6b2
+      spriteID: a0115342d6409f347871908a6d6a63a9
       internalID: 6863071067818224570
       vertices: []
       indices: 
@@ -418,10 +418,10 @@ TextureImporter:
       name: gameTileset_4
       rect:
         serializedVersion: 2
-        x: 30
-        y: 873
-        width: 7
-        height: 7
+        x: 81
+        y: 770
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
