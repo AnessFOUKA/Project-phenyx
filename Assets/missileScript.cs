@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
-public class RedBirdScript : MonoBehaviour
+public class missileScript : MonoBehaviour
 {
     private float shootIndex=0;
     private float eventIndex=0;
@@ -17,7 +17,16 @@ public class RedBirdScript : MonoBehaviour
         new List<float>(){-6,6,0},
         new List<float>(){-6,-6,0},
         new List<float>(){6,6,0},
-        new List<float>(){6,-6,0}
+        new List<float>(){6,-6,0},
+        
+        new List<float>(){0,12,0},
+        new List<float>(){0,-12,0},
+        new List<float>(){12,0,0},
+        new List<float>(){-12,0,0},
+        new List<float>(){-12,12,0},
+        new List<float>(){-12,-12,0},
+        new List<float>(){12,12,0},
+        new List<float>(){12,-12,0}
     };
     void Awake()
     {
@@ -59,3 +68,4 @@ public class RedBirdScript : MonoBehaviour
     }
         
 }
+
