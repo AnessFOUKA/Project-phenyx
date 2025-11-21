@@ -211,11 +211,44 @@ PrefabInstance:
       propertyPath: fireRate
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7784434387667616803, guid: 772f18010fbe0cf41bfc8e5ee92eabfc, type: 3}
+      propertyPath: shootType
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3101323593461363309, guid: 772f18010fbe0cf41bfc8e5ee92eabfc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7934066746941290344}
   m_SourcePrefab: {fileID: 100100000, guid: 772f18010fbe0cf41bfc8e5ee92eabfc, type: 3}
+--- !u!1 &1369726663608017809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3101323593461363309, guid: 772f18010fbe0cf41bfc8e5ee92eabfc, type: 3}
+  m_PrefabInstance: {fileID: 4037514744720118268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7934066746941290344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369726663608017809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab89fcd8ba63df942af0ef643cb8d00d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Generator_Random
+  shootType: 5
+  bulletPrefab: {fileID: 1715074647003091193, guid: 9685f3cd163adc44d97c10c88ecce40c, type: 3}
+  fireRate: 0.3
+  sprayCount: 5
+  sprayAngle: 45
+  circleBullets: 20
+  spiralSpeed: 90
+  waveAmplitude: 20
+  waveFrequency: 5
 --- !u!4 &2262231251239625382 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2840976497816974170, guid: 772f18010fbe0cf41bfc8e5ee92eabfc, type: 3}

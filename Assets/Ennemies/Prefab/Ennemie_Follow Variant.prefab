@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Ennemie
       objectReference: {fileID: 0}
+    - target: {fileID: 2015484695450685926, guid: 3cf70c77947e4e24faf27c5ce3ad9cf0, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8b62deac59fbcb340b354eff42689fac, type: 2}
     - target: {fileID: 5644689871862546631, guid: 3cf70c77947e4e24faf27c5ce3ad9cf0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.78
@@ -61,6 +65,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6057341018585585119, guid: 3cf70c77947e4e24faf27c5ce3ad9cf0, type: 3}
+      propertyPath: shootType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7934066746941290344, guid: 3cf70c77947e4e24faf27c5ce3ad9cf0, type: 3}
       propertyPath: shootType
       value: 1
       objectReference: {fileID: 0}

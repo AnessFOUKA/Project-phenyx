@@ -50,10 +50,6 @@ public class Generator_Base : MonoBehaviour
             case ShootType.Spray:
                 ShootSpray();
                 break;
-
-            case ShootType.Follow:
-                ShootFollow();
-                break;
         }
     }
 

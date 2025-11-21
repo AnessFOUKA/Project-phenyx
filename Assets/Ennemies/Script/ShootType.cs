@@ -4,5 +4,7 @@ public enum ShootType
 {
     Straight,
     Spray,
-    Follow
+    Circle,
+    Spiral,
+    Random
 }
