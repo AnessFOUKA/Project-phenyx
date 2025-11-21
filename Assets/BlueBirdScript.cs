@@ -4,6 +4,7 @@ public class BlueBirdScript : MonoBehaviour
 {
     private float shootIndex=0;
     private float eventIndex=0;
+    public float life=5;
     public Vector3 redBirdSpeedVector;
     public GameObject projectile;
     public float frequence;
@@ -49,6 +50,25 @@ public class BlueBirdScript : MonoBehaviour
                 Destroy(gameObject);
             }
             eventIndex+=10f*Time.deltaTime;
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        GameObject other = collision.gameObject;
+
+        // Vérifier le tag
+        if (other.CompareTag("Projectile"))
+        {
+            if (life>0)
+            {
+                life-=30*Time.deltaTime;
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+            
         }
     }
 }

@@ -2,8 +2,10 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
 using System;
+using UnityEngine.SceneManagement;
 public class PlayerScript : MonoBehaviour
 {
+    public float life;
     public int width;
     public int heigth;
     private PlayerInputs input;
@@ -16,6 +18,7 @@ public class PlayerScript : MonoBehaviour
     private int attackIndex = 1;
     public int BombNb=3;
     public Camera cam;
+
     void Awake()
     {
         cam=Camera.main;
@@ -82,6 +85,24 @@ public class PlayerScript : MonoBehaviour
         if(BombNb>0){
             Instantiate(bomb,transform.position,Quaternion.identity);
             BombNb-=1;
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        GameObject other = collision.gameObject;
+
+        // Vérifier le tag
+        if (other.CompareTag("EnemyProjectile"))
+        {
+            if (life>0)
+            {
+                life-=30f*Time.deltaTime;
+            }
+            else
+            {
+            }
+            
         }
     }
 }

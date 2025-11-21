@@ -47,22 +47,16 @@ public class missileScript : MonoBehaviour
     {
         if (transform.position.y<cam.transform.position.y+6f)
         {
-            if (eventIndex<destroyAt)
-            {
                 if (shootIndex>=frequence)
                 {
                     foreach(List<float> i in projectilesDirection){
                         ThrowProjectile(i[0],i[1],i[2]);
                     }
                     shootIndex=0;
+                    Destroy(gameObject);
                 }
                 transform.position+=(redBirdSpeedVector+cam.GetComponent<CameraController>().CamSpeedVector)*Time.deltaTime;
                 shootIndex+=Time.deltaTime;
-            }
-            else
-            {
-                Destroy(gameObject);
-            }
             eventIndex+=10f*Time.deltaTime;
         }
     }

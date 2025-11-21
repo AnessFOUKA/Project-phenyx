@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 7488351970414671011}
   - component: {fileID: 2619055162741525198}
   - component: {fileID: 8524429005303084482}
+  - component: {fileID: -7782302916537366217}
   m_Layer: 0
   m_Name: BlueBird
-  m_TagString: Untagged
+  m_TagString: BlueBird
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,7 +127,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae06656893580499d7123678f3d6e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlueBirdScript
+  life: 1
   redBirdSpeedVector: {x: 0, y: 0, z: 0}
   projectile: {fileID: 5636320676108552618, guid: 54091d399bce1204f916950c8ca3ca25, type: 3}
   frequence: 0.3
   destroyAt: 50
+--- !u!65 &-7782302916537366217
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457358285987606631}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0625, y: 1.5625, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 public class RedBirdScript : MonoBehaviour
 {
+    public float life=5;
     private float shootIndex=0;
     private float eventIndex=0;
     public Vector3 redBirdSpeedVector;
@@ -55,6 +56,25 @@ public class RedBirdScript : MonoBehaviour
                 Destroy(gameObject);
             }
             eventIndex+=10f*Time.deltaTime;
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        GameObject other = collision.gameObject;
+
+        // Vérifier le tag
+        if (other.CompareTag("Projectile"))
+        {
+            if (life>0)
+            {
+                life-=30*Time.deltaTime;
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+            
         }
     }
         
