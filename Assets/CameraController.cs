@@ -1,15 +1,9 @@
 using UnityEngine;
 
-public class SpecialProjectileScript : MonoBehaviour
+public class CameraController : MonoBehaviour
 {
-    private Animator anim;
+    public Vector3 CamSpeedVector;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Awake()
-    {
-        
-        anim=GetComponent<Animator>();
-    }
-    
     void Start()
     {
         
@@ -18,10 +12,6 @@ public class SpecialProjectileScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    }
-
-    void OnAnimationEnd()
-    {
-        anim.speed=0f;
+        transform.position+=CamSpeedVector*Time.deltaTime;
     }
 }
