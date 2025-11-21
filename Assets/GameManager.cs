@@ -10,9 +10,7 @@ public class GameManager : MonoBehaviour
     private long currentScore = 0;
     
     private long scoreToAddQueue = 0; 
-    
-    public int scoreTickRate = 50000;  
-    
+       
     
     private float currentMultiplier = 1.0f;
 
@@ -30,15 +28,7 @@ public class GameManager : MonoBehaviour
         // Gère l'ajout progressif du score affiché
         if (scoreToAddQueue > 0)
         {
-            // Calcule combien de points ajouter ce frame
-            long pointsThisFrame = (long)(scoreTickRate * Time.deltaTime);
-
-            // On s'assure de ne pas dépasser le montant total en attente
-            pointsThisFrame = System.Math.Min(pointsThisFrame, scoreToAddQueue);
-
-            currentScore += pointsThisFrame;
-            scoreToAddQueue -= pointsThisFrame;
-
+            currentScore = scoreToAddQueue;
             UpdateScoreDisplay();
         }
         
